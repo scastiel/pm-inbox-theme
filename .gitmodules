@@ -1,0 +1,3 @@
+[submodule "pm-theme"]
+	path = pm-theme
+	url = https://github.com/amdelamar/pm-theme.git

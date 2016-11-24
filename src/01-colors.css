@@ -1,0 +1,35 @@
+:root {
+/* Core Theme Colors */
+    --theme1: #4285f4;
+    --theme2: #f2f2f2;
+    --theme3: #ffffff;
+    --theme4: #e0e0e0;
+    --theme5: #4285f4;
+    --theme6: #4285f4;
+    --theme7: #4285f4;
+
+/* Alert & Status Colors */
+    --red: #d23f31;
+    --red-light: #de5245;
+    --yellow: #fdd835;
+    --yellow-light: #fde475;
+    --green: #0f9d58;
+    --green-light: #89bc70;
+    --blue: #bce8f1;
+    --blue-light: #93b9cc;
+
+/* Shades of Grey */
+    --white: #FFF;
+    --light1: #e5e5e5;
+    --light2: #fafafa;
+    --light3: #F5F5F5;
+    --light4: #f4f4f4;
+    --medium1: #CCC;
+    --medium2: #8c8c8c;
+    --dark0: #333;
+    --dark1: #444;
+    --dark2: #616161;
+    --dark3: #666;
+    --dark4: #222;
+    --black: #000;
+}
