@@ -85,6 +85,6 @@ body.mobileMode #pm_sidebar section.sidebar .pm_button.round {
     background: var(--red);
     border-color: transparent;
 }
-.conversation {
+.conversation:not(.active) {
     background: var(--white) !important;
 }
