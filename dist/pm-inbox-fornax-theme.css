@@ -1,18 +1,29 @@
-/**
- * 
- */
+:root {
 
+    /* Header, selected conversation marker, primary buttons */
+    --primary-color: #005DB3;
 
-@charset "UTF-8";
+    /* Main background color */
+    --background-color: #F7F0F5;
+
+    /* Conversation background color */
+    --conversation-background-color: #FFFFFF;
+
+    /* Borders color (conversations...) */
+    --border-color: #e0e0e0;
+
+    /* Compose button background color */
+    --compose-button-background-color: #B3005D;
+}
 :root {
 /* Core Theme Colors */
-    --theme1: #4285f4;
-    --theme2: #f2f2f2;
-    --theme3: #ffffff;
-    --theme4: #e0e0e0;
-    --theme5: #4285f4;
-    --theme6: #4285f4;
-    --theme7: #4285f4;
+    --theme1: var(--primary-color);
+    --theme2: var(--background-color);
+    --theme3: var(--conversation-background-color);
+    --theme4: var(--border-color);
+    --theme5: var(--primary-color);
+    --theme6: var(--primary-color);
+    --theme7: var(--primary-color);
 
 /* Alert & Status Colors */
     --red: #d23f31;
@@ -66,14 +77,19 @@ form.searchForm fieldset {
 form.searchForm fieldset input.query {
     background-color: transparent !important;
 }
-body section.sidebar a.compose, body section.sidebar a.compose:hover {
-    background-color: var(--red);
+body section.sidebar a.compose {
+    background-color: var(--compose-button-background-color);
     border-width: 0 !important;
     box-shadow: none;
     margin-top: 20px;
 }
 body section.sidebar a.compose:hover {
-    background-color: var(--red-light);
+    background-color: var(--compose-button-background-color);
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+    -moz-filter: brightness(1.1);
+    -o-filter: brightness(1.1);
+    -ms-filter: brightness(1.1);
 }
 .conversation {
     box-shadow: inset 0 -1px 0 var(--theme4);
@@ -127,7 +143,7 @@ body.mobileMode #pm_sidebar section.sidebar .pm_button.round {
     border-color: transparent;
 }
 .conversation:not(.active) {
-    background: var(--white) !important;
+    background: var(--theme3) !important;
 }
 /*!
 *  Custom Theme for ProtonMail v3.5.15

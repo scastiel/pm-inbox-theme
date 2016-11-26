@@ -1,0 +1,17 @@
+:root {
+
+    /* Header, selected conversation marker, primary buttons */
+    --primary-color: #1C3144;
+
+    /* Main background color */
+    --background-color: #EAEAEA;
+
+    /* Conversation background color */
+    --conversation-background-color: #FFFFFF;
+
+    /* Borders color (conversations...) */
+    --border-color: #e0e0e0;
+
+    /* Compose button background color */
+    --compose-button-background-color: #004BA8;
+}

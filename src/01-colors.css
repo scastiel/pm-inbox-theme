@@ -1,12 +1,12 @@
 :root {
 /* Core Theme Colors */
-    --theme1: #4285f4;
-    --theme2: #f2f2f2;
-    --theme3: #ffffff;
-    --theme4: #e0e0e0;
-    --theme5: #4285f4;
-    --theme6: #4285f4;
-    --theme7: #4285f4;
+    --theme1: var(--primary-color);
+    --theme2: var(--background-color);
+    --theme3: var(--conversation-background-color);
+    --theme4: var(--border-color);
+    --theme5: var(--primary-color);
+    --theme6: var(--primary-color);
+    --theme7: var(--primary-color);
 
 /* Alert & Status Colors */
     --red: #d23f31;
