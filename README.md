@@ -1,6 +1,8 @@
 Inbox ProtonMail theme
 ======================
 
+**New**: updated for v3.7!
+
 A light and clear theme for ProtonMail, inspired by Google Inbox, with several color styles.
 
 To install it, copy the whole CSS in *dist/pm-inbox-xxxxx-theme.css* (replace xxxxx with the style you choose, see below), open your ProtonMail account settings, select the *Appearance* tab, and paste the CSS into the *Custom theme* field.

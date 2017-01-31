@@ -50,13 +50,11 @@
     --dark4: #222;
     --black: #000;
 }
-body section.sidebar ul.menu li a, body section.sidebar ul.menu li:hover a {
-    color: var(--dark2) !important;
-}
-body section.sidebar ul.menu li a i.fa, body section.sidebar ul.menu li:hover a i.fa {
-    color: var(--dark2) !important;
-}
+body section.sidebar ul.menu li a, body section.sidebar ul.menu li:hover a,
+body section.sidebar ul.menu li a i.fa, body section.sidebar ul.menu li:hover a i.fa,
+body section.sidebar ul.menu li a button.fa-repeat, body section.sidebar ul.menu li:hover button.fa-repeat,
 body section.sidebar div.labels ul li a, body section.sidebar div.labels ul li a:hover {
+    font-size: 14px;
     color: var(--dark2) !important;
 }
 #pm_toolbar-desktop, body #conversation-list-rows , body #conversation-list-columns, body #pm_view, element-view {
@@ -71,19 +69,19 @@ body section.sidebar div.labels ul li a, body section.sidebar div.labels ul li a
 header#pm_header-desktop a.logo {
     background-color: transparent !important;
 }
-form.searchForm fieldset {
+.search-form-fieldset {
     background-color: rgba(255,255,255,.15) !important;
 }
-form.searchForm fieldset input.query {
+.search-form-fieldset input.query {
     background-color: transparent !important;
 }
-body section.sidebar a.compose {
+body section.sidebar a.compose, body section.sidebar a.backToInbox {
     background-color: var(--compose-button-background-color);
     border-width: 0 !important;
     box-shadow: none;
     margin-top: 20px;
 }
-body section.sidebar a.compose:hover {
+body section.sidebar a.compose:hover, body section.sidebar a.backToInbox:hover {
     background-color: var(--compose-button-background-color);
     filter: brightness(1.1);
     -webkit-filter: brightness(1.1);
@@ -93,6 +91,7 @@ body section.sidebar a.compose:hover {
 }
 .conversation {
     box-shadow: inset 0 -1px 0 var(--theme4);
+    border-bottom-width: 0 !important;
 }
 #conversation-view header {
     margin: 10px 10px 0;
@@ -144,6 +143,14 @@ body.mobileMode #pm_sidebar section.sidebar .pm_button.round {
 }
 .conversation:not(.active) {
     background: var(--theme3) !important;
+}
+.customCheckbox-input:checked+.customCheckbox-mask {
+    background-color: var(--theme5);
+    border-color: var(--theme5);
+}
+.customRadio-input:checked+.customRadio-mask {
+    box-shadow: inset 0 0 0 3px #fff, inset 0 0 0 10px var(--theme5);
+    border-color: var(--theme5);
 }
 /*!
 *  Custom Theme for ProtonMail v3.5.15
