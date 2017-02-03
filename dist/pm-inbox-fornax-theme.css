@@ -159,6 +159,9 @@ body #conversation-list-rows .conversation .subject .pm_labels label {
     background: var(--theme3) !important;
     box-shadow: none;
 }
+body section.sidebar ul.menu li a em {
+    color: var(--dark2) !important;
+}
 /*!
 *  Custom Theme for ProtonMail v3.5.15
 *  --
