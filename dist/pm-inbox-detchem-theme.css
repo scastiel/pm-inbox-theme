@@ -152,6 +152,13 @@ body.mobileMode #pm_sidebar section.sidebar .pm_button.round {
     box-shadow: inset 0 0 0 3px #fff, inset 0 0 0 10px var(--theme5);
     border-color: var(--theme5);
 }
+body #conversation-list-rows .conversation .subject .pm_labels {
+    background: var(--theme3) !important;
+}
+body #conversation-list-rows .conversation .subject .pm_labels label {
+    background: var(--theme3) !important;
+    box-shadow: none;
+}
 /*!
 *  Custom Theme for ProtonMail v3.5.15
 *  --
