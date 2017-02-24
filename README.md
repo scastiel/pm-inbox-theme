@@ -1,7 +1,7 @@
 Inbox ProtonMail theme
 ======================
 
-**New**: updated for v3.7!
+**New**: this repository is not maintained anymore, the themes are now available in [ProtonMail theme creator](http://scastiel.gitlab.io/protonmail-theme-creator/), where you can also customize the colors to create your own theme.
 
 A light and clear theme for ProtonMail, inspired by Google Inbox, with several color styles.
 
